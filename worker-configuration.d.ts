@@ -3,6 +3,11 @@
 // Runtime types generated with workerd@1.20260120.0 2025-09-02 nodejs_compat
 declare namespace Cloudflare {
 	interface Env {
+		DB: D1Database
+		BETTER_AUTH_URL: string
+		BETTER_AUTH_SECRET: string
+		GOOGLE_CLIENT_ID: string
+		GOOGLE_CLIENT_SECRET: string
 	}
 }
 interface Env extends Cloudflare.Env {}

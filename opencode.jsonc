@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx", "@playwright/mcp@latest"
+      ]
+    },
+    "tanstack": {
+      "type": "local",
+      "command": [
+        "npx", "@tanstack/cli", "mcp"
+      ]
+    }
+  }
+}
